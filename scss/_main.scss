@@ -1,0 +1,73 @@
+/// Estilos del main
+/// @group Main
+.main {
+  &__img {
+    &--size {
+      width: 100%;
+    }
+  }
+/// Estilos del titulo del articulo
+/// @group Titulo
+  &__titulo {
+    margin: 0 2em;
+    &--size {
+      font-size: 28px;
+    }
+  }
+}
+/// Estilos de los textos
+/// @group Texto
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 6em;
+  /// Estilos del parrafo
+  /// @group Texto
+  &__parrafo {
+    text-align: justify;
+    margin: 0.5em 0;
+    padding: 1em 1em;
+  }
+  /// Estilos del video
+  /// @group Video
+  &__video {
+    width: 100%;
+    height: 710px;
+    margin: 0.5em 0 0 0;
+    padding: 1em 0 0 0;
+  }
+  /// Estilos del parrafo
+  /// @group Texto
+  &__parrafo2 {
+    text-align: justify;
+    margin: 0.5em 0;
+    padding: 1em 0;
+  }
+}
+/// Estilos del Autor
+/// @group Texto
+.author {
+  margin: 1em 0;
+  padding: 0 0;
+  /// Estilos de la imagen Autor
+  /// @group Imagen
+  &__img {
+    display: block;
+    margin: 1em auto;
+    &--size {
+      width: 400px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  /// Descripción de la foto
+  /// @group Texto
+  &__fotoDesc {
+    font-size: 14px;
+    text-align: center;
+    margin: -1em auto 0 auto;
+    padding: -1em 0 0 0;
+  }
+}
